@@ -5,5 +5,10 @@ new Vue ({
         // String
         name: 'Fadi',
         job: 'Web developer',
+    },
+    methods: {
+        greeting: function(time)  {
+            return 'Good' + time + ' ' + this.name;
+        }
     }
 })
