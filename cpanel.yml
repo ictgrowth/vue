@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ictggrcd/vue.ictgrowth.com.au/
+    - /bin/cp -R * $DEPLOYPATH
